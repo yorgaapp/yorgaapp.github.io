@@ -22,7 +22,7 @@
 
 <main class="wrap">
   <h1>Política de privacidad de YORGA</h1>
-  <p class="muted">Última actualización: 30 de septiembre de 2026</p>
+  <p class="muted">Última actualización: 2 de octubre de 2026</p>
 
   <p class="note"><strong>En resumen:</strong> YORGA no tiene servidores propios. Tu organización queda en tu computadora (y en tu Google Drive solo si activás las copias). No hay publicidad, ni estadísticas de uso, ni rastreo, y no compartimos tus datos con nadie.</p>
 
@@ -47,6 +47,7 @@
     <li><code>drive.file</code> — solo si activás las copias en Drive, y únicamente sobre los archivos que crea YORGA.</li>
   </ul>
   <p>El uso y la transferencia que hace YORGA de la información recibida de las API de Google cumplen con la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos del usuario de los servicios de API de Google</a>, incluidos los requisitos de uso limitado. Los datos de Google se usan solo para mostrarte y organizar tu propio contenido dentro de YORGA. No se venden, no se usan para publicidad, no se transfieren a terceros y ninguna persona los lee.</p>
+  <p><strong>YORGA usa los Servicios de API de YouTube.</strong> Al usar YORGA aceptás los <a href="https://www.youtube.com/t/terms">Términos del Servicio de YouTube</a> (ver también nuestros <a href="terminos.html">Términos de uso</a>). Cómo trata Google tu información: <a href="https://policies.google.com/privacy">Política de Privacidad de Google</a>. Los datos de YouTube que YORGA guarda en tu computadora se actualizan solos mientras la usás.</p>
 
   <h2>4. Permisos de Chrome</h2>
   <ul>
@@ -69,22 +70,35 @@
     <li>No envía mensajes por su cuenta: si usás "Informar un problema", se abre tu programa de correo y el mensaje lo mandás vos.</li>
   </ul>
 
-  <h2>6. Cómo borrar tus datos</h2>
+  <h2>6. Cómo protegemos tus datos</h2>
+  <ul>
+    <li><strong>Conexión cifrada:</strong> toda la comunicación entre YORGA y Google (YouTube y Drive) viaja cifrada por HTTPS/TLS. YORGA no puede conectarse a ningún otro lugar: una regla de seguridad dentro de la extensión (Content Security Policy) solo permite las direcciones de Google.</li>
+    <li><strong>Sin servidores ni copias nuestras:</strong> los datos de tu cuenta de Google nunca llegan a nosotros. No hay una base de datos de usuarios que proteger, y ninguna persona de YORGA puede verlos.</li>
+    <li><strong>Guardado aislado:</strong> lo que YORGA guarda queda en el almacenamiento privado que Chrome le da a cada extensión. Las páginas web y las otras extensiones no pueden leerlo, y queda protegido por tu usuario de la computadora y tu perfil de Chrome.</li>
+    <li><strong>Sesión de Google solo en memoria:</strong> la llave temporal que Google le da a YORGA (token de acceso) vive únicamente en la memoria de Chrome, vence sola en alrededor de una hora y se borra al cerrar Chrome. Nunca se guarda en el disco ni se incluye en las copias. YORGA nunca ve ni guarda tu contraseña de Google.</li>
+    <li><strong>Permisos mínimos y por separado:</strong> para el uso normal alcanza con el permiso de solo lectura. El permiso para cambiar algo en YouTube se pide recién en el momento en que vos tocás "Desuscribirme" o "Crear playlist", y el de Drive solo si activás las copias.</li>
+    <li><strong>Copias en Drive:</strong> se suben cifradas en tránsito (HTTPS) a tu propio Google Drive y quedan protegidas por la seguridad de tu cuenta de Google. YORGA solo puede acceder a los archivos que ella misma creó.</li>
+    <li><strong>Sin código externo:</strong> todo el código de YORGA viene dentro de la extensión que revisa la Chrome Web Store; no descarga ni ejecuta código de internet. Los nombres de canales y títulos de videos se tratan siempre como texto, nunca como código.</li>
+    <li><strong>Si encontrás un problema de seguridad</strong>, escribinos a <a href="mailto:yorgaapp@gmail.com">yorgaapp@gmail.com</a>. Si alguna vez un problema afectara tus datos, lo corregimos y lo avisamos en esta página.</li>
+  </ul>
+
+  <h2>7. Cómo borrar tus datos</h2>
   <ul>
     <li>Desde YORGA: Ajustes → "Zona de cuidado" → borrar todo.</li>
+    <li>Desde YORGA: Ajustes → "Zona de cuidado" → <strong>"Desconectar Google"</strong>: le quita a YORGA todos los permisos de tu cuenta de Google (YouTube y Drive) con un clic.</li>
     <li>Al desinstalar YORGA, Chrome borra todo lo que guardó en esa computadora.</li>
     <li>Las copias en Drive son archivos tuyos: podés borrarlos desde tu Google Drive.</li>
     <li>Podés quitarle el acceso a tu cuenta de Google en cualquier momento desde <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
   </ul>
 
-  <h2>7. Cambios y contacto</h2>
+  <h2>8. Cambios y contacto</h2>
   <p>Si esta política cambia, se actualiza en esta página con su nueva fecha. Para cualquier consulta: <a href="mailto:yorgaapp@gmail.com">yorgaapp@gmail.com</a>.</p>
 
   <hr id="en">
 
   <span class="lang">English</span>
   <h1>YORGA Privacy Policy</h1>
-  <p class="muted">Last updated: September 30, 2026</p>
+  <p class="muted">Last updated: October 2, 2026</p>
 
   <p class="note"><strong>Summary:</strong> YORGA has no servers of its own. Your data stays on your computer (and in your own Google Drive only if you enable backups). No ads, no usage analytics, no tracking, and your data is never shared with anyone.</p>
 
@@ -109,6 +123,7 @@
     <li><code>drive.file</code> — only if you enable Drive backups, and only for the files YORGA creates.</li>
   </ul>
   <p>YORGA's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Google user data is used only to show and organize your own content inside YORGA. It is not sold, not used for advertising, not transferred to third parties, and not read by any person.</p>
+  <p><strong>YORGA uses YouTube API Services.</strong> By using YORGA you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> (see also our <a href="terminos.html#en">Terms of Use</a>). How Google handles your information: <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. The YouTube data YORGA keeps on your computer is refreshed automatically while you use it.</p>
 
   <h2>4. Chrome permissions</h2>
   <ul>
@@ -131,15 +146,28 @@
     <li>It never sends messages on its own: "Report a problem" opens your email app and you send the message yourself.</li>
   </ul>
 
-  <h2>6. Deleting your data</h2>
+  <h2>6. How we protect your data (data protection and security)</h2>
+  <ul>
+    <li><strong>Encryption in transit:</strong> all communication between YORGA and Google (YouTube and Drive APIs) is encrypted with HTTPS/TLS. YORGA cannot connect anywhere else: the extension's Content Security Policy only allows Google API addresses.</li>
+    <li><strong>No servers, no copies on our side:</strong> your Google user data is never transmitted to us. There is no user database to protect, and no person at YORGA can access your data.</li>
+    <li><strong>Isolated storage:</strong> what YORGA stores is kept in the private storage Chrome gives each extension. Websites and other extensions cannot read it, and it is protected by your computer user account and your Chrome profile.</li>
+    <li><strong>Google session kept in memory only:</strong> the temporary access token Google gives YORGA lives only in Chrome's memory (session storage), expires on its own in about one hour and is erased when Chrome closes. It is never written to disk or included in backups. YORGA never sees or stores your Google password, and does not store refresh tokens.</li>
+    <li><strong>Least privilege, requested separately:</strong> normal use only needs the read-only permission. The permission to change something on YouTube is requested only at the moment you click "Unsubscribe" or "Create playlist", and the Drive permission only if you enable backups.</li>
+    <li><strong>Drive backups:</strong> they are uploaded encrypted in transit (HTTPS) to your own Google Drive and are protected by your Google account's security. YORGA can only access the files it created itself.</li>
+    <li><strong>No remote code:</strong> all of YORGA's code ships inside the extension reviewed by the Chrome Web Store; it does not download or run code from the internet. Channel names and video titles are always handled as text, never as code.</li>
+    <li><strong>If you find a security issue</strong>, write to <a href="mailto:yorgaapp@gmail.com">yorgaapp@gmail.com</a>. If an issue ever affected your data, we would fix it and post a notice on this page.</li>
+  </ul>
+
+  <h2>7. Deleting your data</h2>
   <ul>
     <li>In YORGA: Settings → "Danger zone" → delete everything.</li>
+    <li>In YORGA: Settings → "Danger zone" → <strong>"Disconnect Google"</strong>: removes all of YORGA's permissions to your Google account (YouTube and Drive) in one click.</li>
     <li>Uninstalling YORGA makes Chrome delete everything it stored on that computer.</li>
     <li>Drive backups are your own files: you can delete them from your Google Drive.</li>
     <li>You can revoke YORGA's access to your Google account at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
   </ul>
 
-  <h2>7. Changes and contact</h2>
+  <h2>8. Changes and contact</h2>
   <p>If this policy changes, this page is updated with a new date. Questions: <a href="mailto:yorgaapp@gmail.com">yorgaapp@gmail.com</a>.</p>
 </main>
 
@@ -147,6 +175,7 @@
   <div class="wrap">
     <span>YORGA · Hecho en Buenos Aires</span>
     <a href="./">Inicio / Home</a>
+    <a href="terminos.html">Términos / Terms</a>
     <a href="mailto:yorgaapp@gmail.com">yorgaapp@gmail.com</a>
   </div>
 </footer>
